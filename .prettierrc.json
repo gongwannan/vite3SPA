@@ -1,0 +1,19 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "printWidth": 200,
+    "semi": true,
+    "singleQuote": false,
+    "parser": "flow",
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "tabWidth": 2,
+    "useTabs": false
+  }
+}
